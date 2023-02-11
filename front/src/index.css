@@ -1,0 +1,144 @@
+body{width: 100%;}
+.home{
+  margin-left: 0;
+  width: 100%;
+  
+}
+.poi-list{
+  float: left;
+  width: 45%;
+  max-width: 45%;
+}
+
+.pois{
+  border: 2px solid rgb(219, 206, 206);
+}
+
+
+
+
+
+.poi {
+  overflow-y: scroll; /* Ajoute une barre de défilement verticale */
+  max-height: 70vh; /* Définit la hauteur du div */
+
+}
+
+/*BlogDetail*/
+
+.faux{
+  margin-top: 35vh;
+  font-style: italic;
+  text-align: center;
+}
+
+.poi-detail{
+  float: right;
+  
+  text-align: left;
+  width: 55%;
+}
+
+.vrai{
+  text-align: center;
+ 
+  height: 50vh;
+  
+}
+
+.vrai b{
+  
+  
+  list-style: none;
+  color: black;
+ 
+
+}
+
+.vrai p{
+  margin-left: 5vh;
+  font-size: 19px;
+  color: #028bfc;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.btn-detail{
+  margin-top: 8vh;
+}
+
+#edit{
+  float: left;
+  width: 20%;
+  margin-left: 22%;
+}
+
+#delete{
+  float: right;
+  width: 20%;
+  
+}
+
+/*UpdatePoi*/
+
+.form-update{
+  width: 60%;
+  margin-left: 25vh;
+}
+
+.modifier{
+  float: right;
+  background-color: green;
+}
+
+#info{
+  background-color: brown;
+  
+}
+
+.valide {
+  width: 28%;
+  background-color: green;
+  height:5.9vh;
+  border: 1px solid green;
+  color:white !important;
+  font-size: 18px;
+  font-style: italic;
+  border-radius: 8px;
+}
+
+.non-valide{
+  width: 28%;
+  margin-left: 2vh;
+  height:5.9vh;
+  border-radius: 8px;
+  background-color: brown;
+  border: 1px solid brown;
+  color:white !important;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/*AddPoi*/
+
+.ajout input{
+  background-color: rgb(188, 229, 216);
+  margin-left: 10vh;
+}
+
+.ajout select{
+  background-color: rgb(188, 229, 216);
+  margin-left: 10vh;
+}
+
+.ajout label{
+  margin-left: 10vh;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.ajout h4{
+  text-align: center;
+}
+
+
